@@ -13,4 +13,4 @@
 <div align="center">
 <img src="https://github.com/DevCookiw/DevCookiw/blob/main/Footer.svg" width="100%" alt="footer"/>
 </div>
-<img src="https://github.com/DevCookiw/DevCookiw/blob/main/snake.yaml" alt="snake"/>
+<img src="https://github.com/DevCookiw/DevCookiw/blob/main/.github/workflows/snake.yml" alt="snake"/>
