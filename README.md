@@ -8,3 +8,12 @@
 <img src="https://img.shields.io/badge/Python-0b0b0c?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/C%2B%2B-0b0b0c?style=for-the-badge&logo=cplusplus&logoColor=white"/>
 </p>
+</div>
+<br/>
+<div align="center">
+<img src="./assets/footer.svg" width="100%" alt="footer"/>
+</div>
+<!-- ============================================================ -->
+<details>
+<summary><code>05</code> · LEVEL UP — animated contribution snake (optional)</summary>
+<br/>
