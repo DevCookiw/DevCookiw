@@ -13,6 +13,5 @@
 <div align="center">
 <img src="https://github.com/DevCookiw/DevCookiw/blob/main/Footer.svg" width="100%" alt="footer"/>
 </div>
-<details>
-<img src="https://github.com/DevCookiw/DevCookiw/blob/main/.github/workflows/snake.yml" alt="snake"/>
-</details>
+<img src="https://raw.githubusercontent.com/DevCookiw/DevCookiw/output/snake.svg" alt="GitHub Soccer Snake Grid Graph"/>
+
