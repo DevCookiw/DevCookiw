@@ -11,7 +11,7 @@
 </div>
 <br/>
 <div align="center">
-<img src="./assets/footer.svg" width="100%" alt="footer"/>
+<img src="https://github.com/DevCookiw/DevCookiw/blob/main/Footer.svg" width="100%" alt="footer"/>
 </div>
 <!-- ============================================================ -->
 <details>
