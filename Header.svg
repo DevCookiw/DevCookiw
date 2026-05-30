@@ -47,20 +47,20 @@
   </g>
 
   <!-- top silkscreen -->
-  <text x="66" y="44" font-size="11" letter-spacing="3" fill="#55555e">PROFILE.OS  v1.0</text>
+  <text x="66" y="44" font-size="11" letter-spacing="3" fill="#55555e">PROFILE.EXE  v1.0</text>
   <text x="934" y="44" text-anchor="end" font-size="11" letter-spacing="3" fill="#55555e">SN 0001 / 2026</text>
 
   <!-- LEFT: identity block -->
-  <text x="64" y="96" font-size="13" font-weight="600" letter-spacing="4" fill="#ff5a1f">// HELLO_WORLD<tspan class="car" dx="2">_</tspan></text>
-  <text x="62" y="150" font-size="52" font-weight="800" letter-spacing="1" fill="#f4f4f5">YOUR NAME</text>
-  <text x="64" y="180" font-size="15" letter-spacing="1" fill="#6b6b73">@your-username</text>
-  <text x="64" y="210" font-size="12" font-weight="600" letter-spacing="5" fill="#8a8a93">ENGINEER · DESIGNER · BUILDER</text>
+  <text x="64" y="96" font-size="13" font-weight="600" letter-spacing="4" fill="#ff5a1f">// HELLO_BIATCH<tspan class="car" dx="2">_</tspan></text>
+  <text x="62" y="150" font-size="52" font-weight="800" letter-spacing="1" fill="#f4f4f5">COOKIW</text>
+  <text x="64" y="180" font-size="15" letter-spacing="1" fill="#6b6b73">@devcookiw</text>
+  <text x="64" y="210" font-size="12" font-weight="600" letter-spacing="5" fill="#8a8a93">STUDENT· BUILDER</text>
   <rect x="64" y="224" width="120" height="2" fill="#ff5a1f"/>
   <circle cx="70" cy="250" r="4" fill="#ff5a1f" class="blink"/>
-  <text x="84" y="254" font-size="12" letter-spacing="3" fill="#9a9aa3">OPEN TO COLLABORATION</text>
+  <text x="84" y="254" font-size="12" letter-spacing="3" fill="#9a9aa3">OPEN TO NOT COLLABORATE</text>
 
   <!-- bottom silkscreen -->
-  <text x="66" y="272" font-size="11" letter-spacing="2" fill="#3f3f47">github.com/your-username</text>
+  <text x="66" y="272" font-size="11" letter-spacing="2" fill="#3f3f47">github.com/DevCookiw</text>
   <text x="934" y="272" text-anchor="end" font-size="11" letter-spacing="2" fill="#3f3f47">BUILD 2026.05</text>
 
   <!-- RIGHT: output module -->
