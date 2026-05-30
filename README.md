@@ -9,7 +9,7 @@
 <img src="https://img.shields.io/badge/C%2B%2B-0b0b0c?style=for-the-badge&logo=cplusplus&logoColor=white"/>
 </p>
 </div>
-<img src="https://raw.githubusercontent.com/DevCookiw/DevCookiw/output/snake.svg" alt="GitHub Soccer Snake Grid Graph"/>
+<img src="https://raw.githubusercontent.com/DevCookiw/DevCookiw/output/snake.svg" align="center" alt="GitHub Soccer Snake Grid Graph"/>
 <br/>
 <div align="center">
 <img src="https://github.com/DevCookiw/DevCookiw/blob/main/Footer.svg" width="100%" alt="footer"/>
