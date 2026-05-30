@@ -13,7 +13,3 @@
 <div align="center">
 <img src="https://github.com/DevCookiw/DevCookiw/blob/main/Footer.svg" width="100%" alt="footer"/>
 </div>
-<!-- ============================================================ -->
-<details>
-<summary><code>05</code> · LEVEL UP — animated contribution snake (optional)</summary>
-<br/>
