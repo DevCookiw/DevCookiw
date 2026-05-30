@@ -1,4 +1,4 @@
-<align="center">
+<div align="center">
 <img src="./assets/Header.svg" width="100%" alt="Cookiw"/>
 <br/>
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2600&pause=900&color=FF5A1F&center=true&vCenter=true&width=640&height=44&lines=BUILDING+THINGS+THAT+DOESN'T+MATTER" alt="typing"/>
