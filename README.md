@@ -1,52 +1,9 @@
-<p align="center">
-  <img src="header.svg" width="100%" alt="" />
-</p>
-
-<p align="center">
-  <strong>I&#8217;d rather be interesting than impressive.</strong>
-</p>
-
-<p align="center">
-  This page isn&#8217;t a list of things I know &mdash; lists go stale by Tuesday.<br/>
-  It&#8217;s a smaller, truer promise: I show up curious, I build things<br/>
-  that didn&#8217;t exist the day before, and I try to leave every repo<br/>
-  a little better lit than I found it.
-</p>
-
-<p align="center">&#10022;</p>
-
-<h3 align="center">Currently</h3>
-
-<p align="center">
-  chasing a question I can&#8217;t quite put down<br/>
-  building in the open, breaking things in private<br/>
-  trading fast answers for better questions
-</p>
-
-<p align="center">&#10022;</p>
-
-<h3 align="center">If we ever build something together</h3>
-
-<p align="center">
-  I&#8217;ll care about the boring parts.<br/>
-  I&#8217;ll tell you plainly what I don&#8217;t know yet.<br/>
-  I&#8217;ll ship it &mdash; then come back and make it kinder.
-</p>
-
-<p align="center">&#10022;</p>
-
-<div align="center">
-<details>
-<summary><sub><i>&#10022; &nbsp;there is a door here</i></sub></summary>
+align="center">
+<img src="./assets/header.svg" width="100%" alt="Cookiw"/>
 <br/>
-<sub>not everything has to live on the surface.</sub><br/>
-<sub>thank you for being the kind of person who clicks things.</sub><br/>
-<sub>that instinct &mdash; that&#8217;s most of the job, honestly.</sub>
-</details>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2600&pause=900&color=FF5A1F&center=true&vCenter=true&width=640&height=44&lines=BUILDING+THINGS+THAT+MATTER;DESIGN-MINDED+ENGINEER;SHIP+%E2%86%92+ITERATE+%E2%86%92+REPEAT;LESS%2C+BUT+BETTER" alt="typing"/>
+<br/>
+<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=VISITORS&color=ff5a1f&style=flat-square" alt="views"/>
+<img src="https://img.shields.io/badge/STATUS-OPEN_TO_WORK-ff3030?style=flat-square&labelColor=0b0b0c" alt="status"/>
+<img src="https://img.shields.io/badge/BASED_IN-YOUR_CITY-f4f4f5?style=flat-square&labelColor=0b0b0c" alt="location"/>
 </div>
-
-<br/>
-
-<p align="center">
-  <sub><i>find me where the good conversations are</i> &nbsp;&middot;&nbsp; 「 your links here 」</sub>
-</p>
