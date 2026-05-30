@@ -1,0 +1,124 @@
+<svg viewBox="0 0 1000 300" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Profile banner">
+  <defs>
+    <linearGradient id="device" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141417"/>
+      <stop offset="1" stop-color="#0c0c0e"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" opacity="0.05"/>
+    </pattern>
+    <clipPath id="panel">
+      <rect x="10" y="10" width="980" height="280" rx="16"/>
+    </clipPath>
+    <style>
+      text{font-family:'SF Mono','JetBrains Mono','Fira Code',ui-monospace,Menlo,Consolas,monospace;}
+      .pulse{animation:pulse 3.2s ease-in-out infinite}
+      .pulse.d1{animation-delay:.6s}
+      @keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}
+      .led{animation:led 1.8s steps(1,end) infinite}
+      @keyframes led{0%,55%{opacity:1}56%,100%{opacity:.16}}
+      .blink{animation:blink 1.2s steps(1,end) infinite}
+      @keyframes blink{0%,50%{opacity:1}51%,100%{opacity:.12}}
+      .car{animation:car 1s steps(1,end) infinite}
+      @keyframes car{0%,50%{opacity:1}51%,100%{opacity:0}}
+    </style>
+  </defs>
+
+  <!-- panel -->
+  <rect x="10" y="10" width="980" height="280" rx="16" fill="url(#device)" stroke="#26262c" stroke-width="1.5"/>
+  <rect x="10" y="10" width="980" height="280" rx="16" fill="url(#dots)" clip-path="url(#panel)"/>
+
+  <!-- light sweep -->
+  <g clip-path="url(#panel)">
+    <rect x="-180" y="10" width="180" height="280" fill="url(#sweep)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="1180 0" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- corner screws -->
+  <g fill="#202027" stroke="#101015">
+    <circle cx="44" cy="44" r="5"/><circle cx="956" cy="44" r="5"/>
+    <circle cx="44" cy="256" r="5"/><circle cx="956" cy="256" r="5"/>
+  </g>
+
+  <!-- top silkscreen -->
+  <text x="66" y="44" font-size="11" letter-spacing="3" fill="#55555e">PROFILE.OS  v1.0</text>
+  <text x="934" y="44" text-anchor="end" font-size="11" letter-spacing="3" fill="#55555e">SN 0001 / 2026</text>
+
+  <!-- LEFT: identity block -->
+  <text x="64" y="96" font-size="13" font-weight="600" letter-spacing="4" fill="#ff5a1f">// HELLO_WORLD<tspan class="car" dx="2">_</tspan></text>
+  <text x="62" y="150" font-size="52" font-weight="800" letter-spacing="1" fill="#f4f4f5">YOUR NAME</text>
+  <text x="64" y="180" font-size="15" letter-spacing="1" fill="#6b6b73">@your-username</text>
+  <text x="64" y="210" font-size="12" font-weight="600" letter-spacing="5" fill="#8a8a93">ENGINEER · DESIGNER · BUILDER</text>
+  <rect x="64" y="224" width="120" height="2" fill="#ff5a1f"/>
+  <circle cx="70" cy="250" r="4" fill="#ff5a1f" class="blink"/>
+  <text x="84" y="254" font-size="12" letter-spacing="3" fill="#9a9aa3">OPEN TO COLLABORATION</text>
+
+  <!-- bottom silkscreen -->
+  <text x="66" y="272" font-size="11" letter-spacing="2" fill="#3f3f47">github.com/your-username</text>
+  <text x="934" y="272" text-anchor="end" font-size="11" letter-spacing="2" fill="#3f3f47">BUILD 2026.05</text>
+
+  <!-- RIGHT: output module -->
+  <rect x="636" y="70" width="320" height="160" rx="12" fill="#0e0e11" stroke="#24242a"/>
+  <text x="652" y="92" font-size="10" letter-spacing="2" fill="#55555e">OUTPUT — VISUAL</text>
+  <text x="940" y="92" text-anchor="end" font-size="10" letter-spacing="2" fill="#55555e">MODE LIVE</text>
+  <line x1="652" y1="102" x2="940" y2="102" stroke="#2a2a31" stroke-width="1" stroke-dasharray="2 16"/>
+
+  <!-- glyph -->
+  <rect class="pulse" x="672" y="116" width="9" height="76" rx="4" fill="#f4f4f5"/>
+  <rect class="pulse d1" x="688" y="134" width="9" height="58" rx="4" fill="#f4f4f5"/>
+  <circle class="led" cx="681" cy="208" r="5" fill="#ff3030"/>
+  <text x="666" y="226" font-size="9" letter-spacing="2" fill="#50505a">SYS.01</text>
+
+  <!-- equalizer -->
+  <g>
+    <rect x="742" y="160" width="9" height="40" rx="2" fill="#f4f4f5">
+      <animate attributeName="height" dur="2.6s" repeatCount="indefinite" values="40;72;18;56;30;64;40"/>
+      <animate attributeName="y" dur="2.6s" repeatCount="indefinite" values="160;128;182;144;170;136;160"/>
+    </rect>
+    <rect x="758" y="140" width="9" height="60" rx="2" fill="#f4f4f5">
+      <animate attributeName="height" dur="3.0s" repeatCount="indefinite" values="60;20;70;34;52;16;60"/>
+      <animate attributeName="y" dur="3.0s" repeatCount="indefinite" values="140;180;130;166;148;184;140"/>
+    </rect>
+    <rect x="774" y="176" width="9" height="24" rx="2" fill="#ff5a1f">
+      <animate attributeName="height" dur="2.2s" repeatCount="indefinite" values="24;58;14;66;30;48;24"/>
+      <animate attributeName="y" dur="2.2s" repeatCount="indefinite" values="176;142;186;134;170;152;176"/>
+    </rect>
+    <rect x="790" y="130" width="9" height="70" rx="2" fill="#f4f4f5">
+      <animate attributeName="height" dur="3.4s" repeatCount="indefinite" values="70;30;54;18;62;26;70"/>
+      <animate attributeName="y" dur="3.4s" repeatCount="indefinite" values="130;170;146;182;138;174;130"/>
+    </rect>
+    <rect x="806" y="168" width="9" height="32" rx="2" fill="#f4f4f5">
+      <animate attributeName="height" dur="2.8s" repeatCount="indefinite" values="32;64;22;50;12;58;32"/>
+      <animate attributeName="y" dur="2.8s" repeatCount="indefinite" values="168;136;178;150;188;142;168"/>
+    </rect>
+    <rect x="822" y="146" width="9" height="54" rx="2" fill="#ff5a1f">
+      <animate attributeName="height" dur="2.4s" repeatCount="indefinite" values="54;18;68;28;46;20;54"/>
+      <animate attributeName="y" dur="2.4s" repeatCount="indefinite" values="146;182;132;172;154;180;146"/>
+    </rect>
+    <rect x="838" y="180" width="9" height="20" rx="2" fill="#f4f4f5">
+      <animate attributeName="height" dur="3.2s" repeatCount="indefinite" values="20;52;30;64;16;60;20"/>
+      <animate attributeName="y" dur="3.2s" repeatCount="indefinite" values="180;148;170;136;184;140;180"/>
+    </rect>
+    <rect x="854" y="136" width="9" height="64" rx="2" fill="#f4f4f5">
+      <animate attributeName="height" dur="2.6s" repeatCount="indefinite" values="64;28;44;16;58;24;64"/>
+      <animate attributeName="y" dur="2.6s" repeatCount="indefinite" values="136;172;156;184;142;176;136"/>
+    </rect>
+    <rect x="870" y="172" width="9" height="28" rx="2" fill="#ff3030">
+      <animate attributeName="height" dur="3.0s" repeatCount="indefinite" values="28;60;18;48;30;66;28"/>
+      <animate attributeName="y" dur="3.0s" repeatCount="indefinite" values="172;140;182;152;170;134;172"/>
+    </rect>
+    <rect x="886" y="152" width="9" height="48" rx="2" fill="#f4f4f5">
+      <animate attributeName="height" dur="2.2s" repeatCount="indefinite" values="48;16;62;26;40;18;48"/>
+      <animate attributeName="y" dur="2.2s" repeatCount="indefinite" values="152;184;138;174;160;182;152"/>
+    </rect>
+  </g>
+  <line x1="742" y1="203" x2="895" y2="203" stroke="#2a2a31" stroke-width="1"/>
+  <circle class="led" cx="746" cy="220" r="3" fill="#ff3030"/>
+  <text x="756" y="223" font-size="9" letter-spacing="2" fill="#50505a">LIVE_OUTPUT</text>
+</svg>
