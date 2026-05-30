@@ -1,0 +1,20 @@
+<svg viewBox="0 0 1000 70" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Footer">
+  <defs>
+    <style>
+      text{font-family:'SF Mono','JetBrains Mono',ui-monospace,Menlo,monospace}
+      .b{animation:b 1.4s steps(1,end) infinite}@keyframes b{0%,50%{opacity:1}51%,100%{opacity:.15}}
+      .p{animation:p 2.6s ease-in-out infinite}@keyframes p{0%,100%{opacity:.3}50%{opacity:1}}
+    </style>
+  </defs>
+  <rect x="10" y="8" width="980" height="52" rx="10" fill="#0b0b0c" stroke="#1c1c20"/>
+  <circle class="b" cx="38" cy="34" r="4" fill="#ff5a1f"/>
+  <text x="52" y="38" font-size="11" letter-spacing="2" fill="#7a7a82">STATUS: ONLINE</text>
+  <g fill="#f4f4f5">
+    <circle class="p" cx="468" cy="34" r="2.5"/>
+    <circle class="p" cx="486" cy="34" r="2.5" style="animation-delay:.3s"/>
+    <circle class="p" cx="504" cy="34" r="2.5" style="animation-delay:.6s"/>
+    <circle class="p" cx="522" cy="34" r="2.5" style="animation-delay:.9s"/>
+    <circle class="p" cx="540" cy="34" r="2.5" style="animation-delay:1.2s"/>
+  </g>
+  <text x="962" y="38" text-anchor="end" font-size="11" letter-spacing="2" fill="#7a7a82">NOTHING / TEENAGE ENGINEERING — INSPIRED</text>
+</svg>
