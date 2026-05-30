@@ -1,14 +1,9 @@
 name: generate snake
 
 on:
-  # Runs automatically every 12 hours
   schedule:
     - cron: "0 */12 * * *"
-  
-  # Allows you to manually run the job at any time from the Actions tab
   workflow_dispatch:
-  
-  # Runs every time you push a change to the main branch (great for testing)
   push:
     branches:
       - main
@@ -21,15 +16,14 @@ jobs:
     timeout-minutes: 5
     
     steps:
-      # Generates the snake SVGs using your custom orange theme
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # Fixed: Added '#' before every color code so the browser can read them
           outputs: |
-            dist/snake.svg?palette=github-dark&color_snake=ff5a1f&color_dots=161616,3a3a40,6b6b73,ff5a1f,ff3030
+            dist/snake.svg?palette=github-dark&color_snake=#ff5a1f&color_dots=#161616,#3a3a40,#6b6b73,#ff5a1f,#ff3030
 
-      # Deploys the generated files to a separate isolated branch named "output"
       - name: push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
